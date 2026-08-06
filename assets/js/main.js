@@ -65,7 +65,7 @@ const formNote = document.getElementById('formNote');
 
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  formNote.textContent = "Thanks! Your message has been received — we'll be in touch within one business day.";
+  formNote.textContent = "Thanks! Your message has been received. We'll be in touch within one business day.";
   contactForm.reset();
 });
 

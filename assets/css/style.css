@@ -506,24 +506,6 @@ h1, h2, h3, h4 {
 }
 .about-card-row { display: flex; align-items: center; gap: 12px; font-size: 14.5px; color: var(--text-dim); }
 
-/* ===================== Testimonials ===================== */
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-.testimonial {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 30px 26px;
-}
-.testimonial p { font-size: 15px; color: var(--text-dim); margin-bottom: 20px; }
-.testimonial p::before { content: "\201C"; }
-.testimonial p::after { content: "\201D"; }
-.testimonial footer strong { display: block; font-size: 14.5px; }
-.testimonial footer span { color: var(--text-mute); font-size: 13px; }
-
 /* ===================== Pricing ===================== */
 .pricing-grid {
   display: grid;
@@ -728,7 +710,6 @@ h1, h2, h3, h4 {
   .process-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .work-grid { grid-template-columns: repeat(2, 1fr); }
-  .testimonial-grid { grid-template-columns: 1fr; }
   .pricing-grid { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
   .price-card-featured { transform: none; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; }
