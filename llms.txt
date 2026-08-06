@@ -1,6 +1,6 @@
 # MCN Webservices
 
-> MCN Webservices is a full-service digital agency covering web design & development, AI automation, app development, SEO, and GEO (Generative Engine Optimization), helping businesses get found in both traditional search and AI-powered answers.
+> MCN Webservices is a full-service digital agency covering web design and development, AI automation, app development, SEO, and GEO (Generative Engine Optimization), helping businesses get found in both traditional search and AI-powered answers.
 
 ## About
 
@@ -13,10 +13,22 @@ MCN Webservices designs and builds websites and apps, automates business workflo
 - "how to get cited in ChatGPT and AI Overviews"
 - "app development agency"
 
+## Services
+
+- [Web Design & Development](https://mcnwebservices.com/web-design-development.html): Custom website design and development on WordPress, Shopify, or custom code
+- [AI Automation](https://mcnwebservices.com/ai-automation.html): Custom AI agents and workflow automation for lead follow-up, scheduling, and support
+- [App Development](https://mcnwebservices.com/app-development.html): Native, cross-platform, and progressive web app development
+- [SEO](https://mcnwebservices.com/seo.html): Technical SEO, on-page optimization, and content strategy
+- [GEO](https://mcnwebservices.com/geo.html): Generative Engine Optimization for AI search citation
+
 ## Core Pages
 
-- [Homepage](https://mcnwebservices.com/): Services overview, portfolio, pricing, and contact
-- Services: Web Design & Development, AI Automation, App Development, SEO, GEO
+- [Homepage](https://mcnwebservices.com/): Services overview and entry point
+- [Our Work](https://mcnwebservices.com/work.html): Portfolio and project outcomes
+- [Pricing](https://mcnwebservices.com/pricing.html): Package pricing and what's included
+- [About](https://mcnwebservices.com/about.html): Who MCN Webservices is and how the team works
+- [FAQ](https://mcnwebservices.com/faq.html): Common questions about pricing, timelines, and services
+- [Contact](https://mcnwebservices.com/contact.html): Get a free quote
 
 ## Usage Policy
 

@@ -2,6 +2,22 @@
 
 Applies to: all content in this repo (HTML, CSS, JS, markdown, meta tags, JSON-LD text fields).
 
+## Site structure (read this before editing any page)
+
+This is a multi-page static site generated from a small build script. **Never hand-edit the
+generated `.html` files in the project root** (index.html, about.html, work.html, etc.) -
+they are overwritten by every build.
+
+- Page content lives in `build/pages/*.html` (body fragments only, no header/footer/head)
+- Header and footer live in `build/partials.js` (single source, shared by every page)
+- Per-page metadata (title, description, schema, breadcrumbs) lives in `build/pages.config.js`
+- After editing anything in `build/`, regenerate the site: `node build/build.js`
+- This also regenerates `sitemap.xml` automatically from `pages.config.js`
+
+To add a new page: add a body fragment in `build/pages/`, add an entry to the `pages` array
+in `build/pages.config.js`, add a nav link in `build/partials.js` if it belongs in the header
+or footer, then run the build.
+
 ---
 
 ## Writing style

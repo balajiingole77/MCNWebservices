@@ -63,11 +63,13 @@ document.querySelectorAll('.faq-item').forEach((item) => {
 const contactForm = document.getElementById('contactForm');
 const formNote = document.getElementById('formNote');
 
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  formNote.textContent = "Thanks! Your message has been received. We'll be in touch within one business day.";
-  contactForm.reset();
-});
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    formNote.textContent = "Thanks! Your message has been received. We'll be in touch within one business day.";
+    contactForm.reset();
+  });
+}
 
 // ===== Footer year =====
 document.getElementById('year').textContent = new Date().getFullYear();
