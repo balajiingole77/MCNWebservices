@@ -95,7 +95,7 @@ const pages = [
       faqSchema([
         {
           q: 'How much does a custom website cost?',
-          a: 'Most marketing websites with MCN Webservices start at $1,500 for up to 5 pages. Larger sites, e-commerce builds, and custom web apps are scoped individually based on features and integrations.',
+          a: "It depends on the number of pages, custom functionality, and content needs, so we quote it on a short call rather than a fixed number. Call us at (732) 708-6211 or send your project details and we'll give you a straight answer.",
         },
         {
           q: 'How long does a website project take?',
@@ -144,7 +144,7 @@ const pages = [
         },
         {
           q: 'How is AI automation priced?',
-          a: 'A single automation is typically included as part of our Growth package, priced from $3,500 plus $600 per month. Larger multi-workflow automation suites are scoped as part of a custom Scale engagement.',
+          a: "It depends on how many workflows you need and how deep the integration goes, so pricing is quoted after a short call. Call us at (732) 708-6211 and we'll walk through what a single automation versus a full suite would cost.",
         },
       ]),
     ],
@@ -328,7 +328,7 @@ const pages = [
     activeNav: 'pricing',
     title: 'Pricing & Plans | Web Design & AI Automation Agency',
     description:
-      'Transparent starting prices for website design, AI automation, and ongoing SEO and GEO programs. See what is included in each package before you book a call.',
+      "See what's included in our Starter, Growth, and Scale packages for website design, AI automation, and ongoing SEO and GEO programs. Call for a custom quote.",
     bodyFile: 'pricing.html',
     breadcrumbs: [HOME_CRUMB, { label: 'Pricing' }],
     schema: [ORG],
