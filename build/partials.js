@@ -11,6 +11,7 @@ const SERVICE_LINKS = [
   { id: 'ai-automation', label: 'AI Automation', href: 'ai-automation.html' },
   { id: 'app-development', label: 'App Development', href: 'app-development.html' },
   { id: 'seo', label: 'SEO', href: 'seo.html' },
+  { id: 'aeo', label: 'AEO (Answer Engine)', href: 'aeo.html' },
   { id: 'geo', label: 'GEO (AI Search)', href: 'geo.html' },
 ];
 
@@ -75,7 +76,7 @@ function footer() {
         </span>
         <span class="brand-name">MCN <span>Webservices</span></span>
       </a>
-      <p>Web design and development, AI automation, app development, SEO and GEO, all under one roof.</p>
+      <p>Web design and development, AI automation, app development, SEO, AEO and GEO, all under one roof.</p>
     </div>
 
     <div class="footer-col">
@@ -94,8 +95,8 @@ ${serviceItems}
 
     <div class="footer-col">
       <h4>Connect</h4>
-      <a href="mailto:hello@mcnwebservices.com">hello@mcnwebservices.com</a>
-      <a href="tel:+10000000000">+1 (000) 000-0000</a>
+      <a href="mailto:Info@mcnwebservices.com">Info@mcnwebservices.com</a>
+      <a href="tel:+17327086211">(732) 708-6211</a>
     </div>
   </div>
   <div class="container footer-bottom">

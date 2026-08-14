@@ -8,8 +8,8 @@ const ORG = {
   url: `${BASE_URL}/`,
   logo: `${BASE_URL}/assets/img/favicon.svg`,
   description:
-    'MCN Webservices is a full-service digital agency covering web design and development, AI automation, app development, SEO, and GEO (Generative Engine Optimization).',
-  email: 'hello@mcnwebservices.com',
+    'MCN Webservices is a full-service digital agency covering web design and development, AI automation, app development, SEO, AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization).',
+  email: 'Info@mcnwebservices.com',
   sameAs: [],
 };
 
@@ -55,9 +55,9 @@ const pages = [
         '@type': 'ProfessionalService',
         name: 'MCN Webservices',
         url: `${BASE_URL}/`,
-        description: 'Web design and development, AI automation, app development, SEO and GEO services for growing businesses.',
-        email: 'hello@mcnwebservices.com',
-        telephone: '+1-000-000-0000',
+        description: 'Web design and development, AI automation, app development, SEO, AEO and GEO services for growing businesses.',
+        email: 'Info@mcnwebservices.com',
+        telephone: '+1-732-708-6211',
         priceRange: '$$',
         areaServed: 'US',
         hasOfferCatalog: {
@@ -68,6 +68,7 @@ const pages = [
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI Automation' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'App Development' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'SEO' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AEO (Answer Engine Optimization)' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'GEO (Generative Engine Optimization)' } },
           ],
         },
@@ -217,7 +218,44 @@ const pages = [
         },
         {
           q: 'How is SEO different from GEO?',
-          a: 'SEO targets rankings in traditional search engines like Google. GEO (Generative Engine Optimization) targets citations inside AI answers from tools like ChatGPT and Perplexity. We run both together.',
+          a: 'SEO targets rankings in traditional search engines like Google. AEO targets featured snippets and voice answers inside those same search engines. GEO targets citations inside AI answers from tools like ChatGPT and Perplexity. We run all three together.',
+        },
+      ]),
+    ],
+    lastmod: TODAY,
+    priority: '0.9',
+  },
+  {
+    slug: 'aeo',
+    activeNav: 'aeo',
+    title: 'AEO Services: Answer Engine Optimization | MCN',
+    description:
+      'AEO services get your content into featured snippets, People Also Ask boxes, and voice answers, with answer-first content structured to win position zero.',
+    bodyFile: 'aeo.html',
+    breadcrumbs: [HOME_CRUMB, { label: 'AEO' }],
+    schema: [
+      ORG,
+      serviceSchema({
+        name: 'AEO (Answer Engine Optimization)',
+        serviceType: 'Answer Engine Optimization',
+        description: 'Content structuring and schema markup to win featured snippets, People Also Ask results, and voice search answers.',
+      }),
+      faqSchema([
+        {
+          q: 'What does AEO mean?',
+          a: 'AEO, or Answer Engine Optimization, is the practice of structuring content so search engines can lift a direct answer out of your page and show it as a featured snippet, a People Also Ask result, or a voice search answer.',
+        },
+        {
+          q: 'How is AEO different from GEO?',
+          a: 'AEO targets answer boxes inside traditional search engines like Google, for example featured snippets and voice search. GEO targets citations inside generative AI tools like ChatGPT and Perplexity. The content techniques overlap, but the target surface is different.',
+        },
+        {
+          q: 'What kind of content wins a featured snippet?',
+          a: 'A direct, 40 to 60 word answer placed immediately under a heading phrased as the exact question people search, often followed by a supporting list or table Google can also pull into the snippet.',
+        },
+        {
+          q: 'Can a small business realistically win featured snippets?',
+          a: 'Yes. Featured snippets are pulled from pages already ranking on page one for a query, so a well-structured page from a smaller site can win a snippet over a larger competitor with a poorly structured page.',
         },
       ]),
     ],
@@ -246,7 +284,7 @@ const pages = [
         },
         {
           q: 'Is GEO a replacement for SEO?',
-          a: 'No. GEO builds on top of SEO. A page still needs to be crawlable, fast, and well structured to rank in Google, and GEO adds the answer-first structure and schema that get it cited inside AI responses too.',
+          a: 'No. GEO builds on top of SEO. A page still needs to be crawlable, fast, and well structured to rank in Google, and GEO adds the answer-first structure and schema that get it cited inside AI responses too. AEO uses the same answer-first structure to target featured snippets inside Google itself.',
         },
         {
           q: 'How do I know if my site is blocking AI crawlers?',
@@ -309,8 +347,8 @@ const pages = [
       ORG,
       faqSchema([
         {
-          q: "What's the difference between SEO and GEO?",
-          a: 'SEO optimizes your site to rank in traditional search engines like Google. GEO (Generative Engine Optimization) optimizes your content and structured data so AI tools like ChatGPT, Gemini and Perplexity cite and recommend your brand directly in their answers. We run both together for maximum visibility.',
+          q: "What's the difference between SEO, AEO, and GEO?",
+          a: 'SEO optimizes your site to rank in traditional search engines like Google. AEO (Answer Engine Optimization) targets featured snippets, People Also Ask boxes, and voice search answers inside those same search engines. GEO (Generative Engine Optimization) optimizes your content and structured data so AI tools like ChatGPT, Gemini and Perplexity cite and recommend your brand directly in their answers. We run all three together for maximum visibility.',
         },
         {
           q: 'How long does a typical website project take?',
